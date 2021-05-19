@@ -1,0 +1,35 @@
+video link : 
+LLF : https://www.youtube.com/watch?v=6tISZd-4DmI
+FPS : https://www.youtube.com/watch?v=kIRjn5jNmn4
+Experimental : //www.youtube.com/watch?v=4n0NR2IQSzw
+EDF : https://www.youtube.com/watch?v=VwAzrq4j-bo
+
+
+a. Fixed Priority Scheduler - Orange LED
+Seafood : never missed deadline
+Veggie : missed half deadlines of its total cycle (i.e. 25 missed in 50 cycle)
+Hawaiian Chicken: missed 1 cycle at beginning and then never missed for the rest of its cycles' deadline
+Pepperoni : complete only 1 cycle at beginning and then missed rest of its cycles' deadline
+
+b.Earliest Deadline First Scheduler - Red LED
+Seafood : never missed deadline
+Veggie : missed 1/4 deadlines of its total cycle (i.e. 13 missed in 52 cycle)
+Hawaiian Chicken: never missed deadline
+Pepperoni : always missed deadline
+
+c. Least Laxity First Scheduler - Blue LED
+Seafood : never missed deadline
+Veggie : missed half deadlines of its total cycle (i.e. 25 missed in 50 cycle)
+Hawaiian Chicken : always missed deadline (because i choosed optiona1)
+Pepperoni : always missed deadline (because i choosed optiona1)
+
+d. Experimental - Green LED (round robin)
+In this scheduler i ignore all the attributes of each pizza, just run each pizza follow the order(Seafood-Veggie-Hawaiian Chicken-Pepperoni) one second for each then switch to another.
+
+Seafood : missed 1/2 deadlines of its total cycle (i.e. 25 missed in 50 cycle)
+Veggie : missed 1/2 deadlines of its total cycle (i.e. 25 missed in 50 cycle)
+Hawaiian Chicken : always missed deadline (because i choosed optiona1)
+Pepperoni : always missed deadline (because i choosed optiona1)
+
+
+
